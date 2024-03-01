@@ -1,0 +1,22 @@
+{
+	"Version":2,
+	"Scope":1,
+	"TargetPath":"`Name`.cs",
+	"Overwritable": false
+}
+*** body starts here ***
+#region using
+using System;
+using System.Linq;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+ 
+#endregion
+
+namespace `DataProjectNamespace`;
+
+`T [MetadataType(typeof(`Name`MetaData))]
+public partial class `Name`
+{
+} T`

@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AutoStock.ApiLibrary\AutoStock.ApiLibrary.csproj" />
+      <ProjectReference Include="..\AutoStock.Shared\AutoStock.Shared.csproj" />
+    </ItemGroup>
+
+</Project>
